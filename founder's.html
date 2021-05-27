@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+
+    <style>
+        .mySlides {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <u><em ><strong><i> <b> <h2 class="w3-center">DEVELOPER'S OF WAVES</h2></b></i></strong></em></u>
+
+
+
+
+
+    <div>
+        <p style="text-align:center;">
+            <img class="mySlides" src="https://cdn.discordapp.com/attachments/832174590834769920/842324300919734292/IMG-20210513-WA0032.jpg" style="width:70%" class="center" height="700px">
+            <img class="mySlides" src="https://media.discordapp.net/attachments/789846526662017024/840644455933018172/aedi.jpeg?width=306&height=300" style="width:70%" class="center" height="700px">
+            <img class="mySlides" src="https://cdn.discordapp.com/attachments/789846526662017024/840642847627673640/20200627_194309.jpg" style="width:25%" class="center" height="700px">
+            <img class="mySlides" src="https://cdn.discordapp.com/attachments/789813223078756373/844086685422977024/unknown.png" style="width:65%" class="center" height="700px">
+            <img class="mySlides" src="https://wi.wallpapertip.com/wsimgs/19-190460_non-copyrighted-christmas-background.jpg" style="width:70%" class="center" height="700px">
+            <img class="mySlides" src="https://cdn.discordapp.com/attachments/768366538583441418/844212165811765268/20210518_192732.jpg" style="width:70%" class="center" height="700px">
+        </p>
+    </div>
+
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 6000); // Change image every 6 seconds
+        }
+    </script>
+    <style type="text/css">
+        .centerImage {
+            text-align: center;
+            display: block;
+        }
+    </style>
+
+
+</body>
+
+</html>
